@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/philiplopez/sitemakr-index.git"
+    "url": "https://github.com/philiplopez/sitemakr-authoring.git"
   },
   "keywords": [
     "static",
@@ -18,9 +18,9 @@
   "author": "Philip Lopez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/philiplopez/sitemakr-index/issues"
+    "url": "https://github.com/philiplopez/sitemakr-authoring/issues"
   },
-  "homepage": "https://github.com/philiplopez/sitemakr-index",
+  "homepage": "https://github.com/philiplopez/sitemakr-authoring",
   "devDependencies": {
     "babel": "^5.8.21",
     "sigh": "^0.12.22",
