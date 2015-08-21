@@ -25,7 +25,8 @@ export function ensureTitleInfo(event) {
 
 export function ensureExcerpt(event, fileExists) {
     if (fileExists) {
-        eventDocInfo(event).excerpt = excerptHtml(event.data);
+        const excerpt = excerptHtml(event.data);
+        eventDocInfo(event).excerpt = (excerpt !== "false") ? excerpt : undefined;
     }
     return event;
 }
